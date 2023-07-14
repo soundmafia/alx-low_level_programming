@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 
-
 /**
  * main - Entry points
  * Return: Always (Success)
