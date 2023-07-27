@@ -4,7 +4,8 @@
  * _strcmp - Write a function that compares two strings.
  * @s1: Pointer to the first string to be compared
  * @s2: Pointer to the second string to be compared
- * Return: if str1 < str2, the negative difference of the first unmatched character
+ * Return: if str1 < str2, the negative difference of the
+ * first unmatched character
  * If str1 == str2, 0.
  * if str1 > str2, the positive difference of the frst unmatched characters
  */
