@@ -27,7 +27,7 @@ int _strlen(char *s)
  * it includes the terminating null byte (\0)
  * to the buffer pointed to by dest
  * @dest: this is the pointer pointing to
- * the buffer wich we copy the string
+ * the buffer which we copy the string
  * @src: the string to be copied
  * Return: the pointer to dest
  */
