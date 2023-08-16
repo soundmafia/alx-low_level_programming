@@ -4,7 +4,7 @@
 /**
  * main - Write a program that prints the opcodes of its own main function
  * @argc: no. of arguments.
- * @agrv: array of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < bytes; i++)
 	{
-		if (i == bytes -1)
+		if (i == bytes - 1)
 		{
 			printf("%02hhx\n", arr[i]);
 			break;
