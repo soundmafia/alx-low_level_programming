@@ -9,7 +9,6 @@
  * @n: is the number of strings passed to the function.
  * @...: variable no. of strings
  *
- *
  * Description - If separator is NULL, don’t print it
  * If one of the string is NULL, print (nil) instead
  */
