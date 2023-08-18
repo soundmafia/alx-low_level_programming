@@ -10,7 +10,7 @@
  * @...: variable no. of strings
  *
  *
- * main - If separator is NULL, don’t print it
+ * Description - If separator is NULL, don’t print it
  * If one of the string is NULL, print (nil) instead
  */
 
@@ -35,8 +35,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
-
 	printf("\n");
-
 	va_end(strings);
 }
