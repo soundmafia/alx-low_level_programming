@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_node - Write a function that adds a new node at the end of a list_t list.
+ * add_node_node - Write a function that adds a new node
+ * at the end of a list_t list.
  * @head: double pointer to the list_t lists head
  * @str: string to be stored in the new node
  * Return:  the address of the new element, or NULL if it failed
