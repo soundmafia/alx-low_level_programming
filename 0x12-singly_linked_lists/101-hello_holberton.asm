@@ -8,4 +8,4 @@ main:
 	mov	eax, 0		;	set the return value to 0
 	ret			;	return from the main function
 
-format: db 'Hello, Holberton\n', 0 ; define a null-terminated format string
+format: db 'Hello, Holberton\n',0;
